@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 
     @GetMapping("/index")
-    public String index(){
+    public String index_page(){
         return "This is index.page";
     }
 
@@ -17,4 +17,5 @@ public class IndexController {
     public IndexResponseDto indexDto(@RequestParam("name") String name, @RequestParam("amount") int amount){
         return new IndexResponseDto(name, amount);
     }
+
 }
