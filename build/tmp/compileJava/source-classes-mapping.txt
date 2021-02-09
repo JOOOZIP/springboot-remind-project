@@ -1,4 +1,2 @@
 com/springboot/rmind/project/Application.java
  com.springboot.rmind.project.Application
-com/springboot/rmind/project/web/IndexController.java
- com.springboot.rmind.project.web.IndexController
